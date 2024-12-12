@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mt-6{
+    margin-top: 9rem;
+}
+.fs-7{
+  font-size: 14px;
+}
+.f-Freehand{
+  font-size: 'Khmer OS Content-Kh Auto' ;
+}
+.f-Battambang{
+  font-family: 'Khmer OS Battambang-Kh Auto';
+}
+
+/*----------------------------------------------------------- Navbar  ----------------------------------*/
+
+
+.navbar{
+    height: 80px;
+}
+.navbar .container-fluid .collapse-btn ul{
+    list-style: none;
+}
+.navbar .container-fluid .collapse-btn ul li .nav-alink{
+    width: 100px;
+    height: 40px;
+    display: block;
+}
+
+.navbar .container-fluid .collapse-btn .nav-search{
+    height: 40px;
+}
+form input[type="search"]:focus{
+    box-shadow: none;
+    border: 1px solid black;
+}
+
+/* ------------------------------------------------------- Banner ----------------------------------------------------------*/
+
+.container-fluid .swiper .row .col-7 .card-banner {
+    width: 100%;
+    height: 500px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+
+}
+.line-height{
+  line-height:35px;
+  
+}
+.text-align-center{
+  font-size: 18px;
+  text-align:center;
+}
+.container-fluid .row .col-4 .elementor-icon-container:hover{
+  background-color: #F8F9FA;
+}
+
+.container-fluid .row .col-4 .elementor-icon-container:hover .h3{
+  color: #FC5D76;
+}
+.icon-color{
+  color: #FC5D76;
+}
+.schedules-day{
+  width: 300px;
+  height: 140px;
+  background: linear-gradient(to right,#FD8A66,#FD2E7F);
+  
+}
+.schedules-day p{
+  text-align: end;
+  text-transform: uppercase;
+}
+.triangle-up {
+	width: 0;
+	height:0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #FD2E7F;
+  transform: rotate(90deg);
+  right: 100px;
+}
+.item-schedules{
+  background-color: #F8F9FA;
+  border-bottom: 2px dashed #E5E5E5;
+}
+.top-90{
+  top: 100px;
+}
+.item-schedules_items{
+  height: 140px;
+}
+.filter-gary{
+  filter: grayscale(100%);
+}
+.filter-gary:hover{
+  filter: grayscale(0);
+  transition: 0.7s;
+}
